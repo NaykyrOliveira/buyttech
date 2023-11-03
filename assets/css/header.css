@@ -1,0 +1,22 @@
+.block__main__header{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.block__main__header__h1 {
+    color: #808080;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.block__main__nav__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__main__nav__item {
+    padding: 0 2rem;
+}

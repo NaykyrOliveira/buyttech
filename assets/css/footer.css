@@ -1,0 +1,34 @@
+.block__container__contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block__footer__div__with__instagram {
+    margin: 2rem;
+    padding: 1rem 2rem;
+    
+}
+
+.block__footer__h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: #747474;
+}
+
+.block__footer__p__intagram {
+    color: #5C5C5C;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.block__footer__div__with__form {
+    color: #A4A4A4;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem 2rem;
+}
+
+.block__footer__link {
+    display: flex;
+}
