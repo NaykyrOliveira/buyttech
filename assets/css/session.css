@@ -1,68 +1,74 @@
-.block__about {
-    background: linear-gradient(#2E2E2E, #3C3C3C, #545454);
+.about {
+    background: var(--about-bg);
     border-radius: 2rem;
-    height: auto;
     margin: 5rem auto;
     padding: 2rem;
     max-width: 80rem;
 }
 
-.block__about__p {
-    font-size: 1.1rem;
-    font-weight: 600;
-    line-height: 1.5rem;
+.about__p {
+    font: var(--main-font-size);
     text-align: justify;
+    line-height: 1.5rem;
 }
 
-.block__about__ul {
+.about__ul {
     margin: 1rem 2rem;
     padding: 1rem auto;
 }
 
-.block__about__ul__item{
+.about__ul__item{
     list-style: inside;
+    font: var(--main-font-size);
 }
 
-.block__product__catalog,
-.block__product__catalog__h2,
-.block__container {
-    color: #808080;
-    font-size: 1.8rem;
+.product__catalog {
+    font: var(--logo-font);
+    margin-left: 7rem;
 }
 
-.block__container {
+.product__catalog__h2,
+.container {
+    color: var(--main-text-color);
+}
+
+.container {
     margin: 2rem;
     padding: 2rem;
     width: auto;
 }
 
-.block__product__catalog__h2 {
+.product__catalog__h2 {
+    font: var(--products-font-h2);
     text-align: center;
 }
 
-.block__container__button {
+.container__button {
     display: flex;
     justify-content: space-between;
     height: 3.5rem;
     width: 3.5rem;
 }
 
-.block__container__button__prev {
+.container__button__prev {
     background: url(../image/button-right.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.block__container__button__next {
+.container__button__next {
     background: url(../image/button-left.png) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.block__container__button__more {
+.container__button__more {
     align-items: center;
-    background: #F48A28;
+    background: var(--button-bg);
     border-radius: 15px;
-    box-shadow: 0px 8px 4px 0px rgba(0, 0, 0, 0.25);
-    color: #341804;
-    font-size: 26px;
-    font-weight: 700;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.13);
+    color: var(--button-color);
+    font: 700 1.2rem;
     height: 71px;
     justify-content: center;
     margin: 0 auto;

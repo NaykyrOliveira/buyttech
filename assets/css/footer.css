@@ -1,34 +1,30 @@
-.block__container__contact {
+.container__contact {
     display: flex;
     justify-content: space-around;
 }
 
-.block__footer__div__with__instagram {
+.footer__div__with__instagram,
+.footer__div__with__form {
     margin: 2rem;
     padding: 1rem 2rem;
-    
 }
 
-.block__footer__h3 {
+.footer__h3 {
     padding: 1rem 0;
-    font-size: 1.5rem;
+    font: 700 1.5rem;
     color: #747474;
 }
 
-.block__footer__p__intagram {
+.footer__p__intagram {
+    font: italic 300 1.2rem;
     color: #5C5C5C;
-    font-size: 1.2rem;
-    font-style: italic;
-    font-weight: 300;
 }
 
-.block__footer__div__with__form {
-    color: #A4A4A4;
+.footer__div__with__form {
     font-size: 1.5rem;
-    margin: 2rem;
-    padding: 1rem 2rem;
+    color: #A4A4A4;
 }
 
-.block__footer__link {
+.footer__link {
     display: flex;
 }

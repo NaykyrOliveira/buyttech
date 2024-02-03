@@ -2,6 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 
 :root {
+    --about-bg: linear-gradient(#2E2E2E, #3C3C3C, #66626246);
+    --button-bg: #F48A28;
+    --button-color: #341804;
+    --logo-color: #E5E5E5;
+    --logo-font: 700 2.5rem/normal 'Poppins', sans-serif;
+    --main-bg-color: rgba(63, 62, 62, 0.199);
+    --main-border-color: rgba(49, 49, 49, 0.18);
+    --main-font-size:400 1rem/normal 'Poppins', sans-serif;
+    --main-text-color: #808080;
+    --menu-color: #808080;
+    --menu-font: 600 1.5rem/normal 'Poppins', sans-serif;
+    --products-font-h2: 600 2.2rem/normal 'Poppins', sans-serif;
     --text-color: rgb(255, 255, 255);
 }
 
@@ -12,16 +24,13 @@ body {
 
 body * {
     color: var(--text-color);
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
 }
 
-.block__main {
-    margin: 1rem auto;
+.main {
+    margin: auto;
     max-width: 90rem;
 }
 
 hr {
-    border: solid 1.5px #414141;
+    border: 1.5px solid #414141;
 }
-
